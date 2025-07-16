@@ -312,7 +312,7 @@ public class ListHealthCenters extends AppCompatActivity {
                         .append(latitude)
                         .append(",")
                         .append(longitude)
-                        .append("&key=AIzaSyC6-gwhsbRMAbtSNhR56y2EBV9S16bZhHE&sensor=false&libraries=places");
+                        .append("&key=[your google maps api key]&sensor=false&libraries=places");
 
                 /** searching for url */
                 URL url = new URL(stringBuilder.toString());
